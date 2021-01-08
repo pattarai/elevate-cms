@@ -96,7 +96,7 @@ Once it’s set up, sign up using the registration form on the home page (not on
 #### On Vercel:
 
 - Set the Authorization Callback URL as `<your deployment’s URL>/api/github-oauth` on GitHub.
-- Set `NEXT_PUBLIC_GITHUB_OAUTH_CLIENT_ID` and `GITHUB_OAUTH_CLIENT_SECRET` on [Vercel Project Environment Variables Settings](https://vercel.com/docs/environment-variables) for the production environment.
+- Set `NEXT_PUBLIC_GITHUB_OAUTH_CLIENT_ID` and `GITHUB_OAUTH_CLIENT_SECRET` on [Pattarai Project Environment Variables Settings](https://vercel.com/docs/environment-variables) for the production environment.
 - Edit `SITE_URL` in `lib/constants.ts` to match your deployment’s URL (no trailing slash).
 - Push the code to redeploy the Project on Vercel.
 
@@ -129,7 +129,7 @@ REDIS_EMAIL_TO_ID_SECRET=foo # Come up with your own secret string
 
 #### Using Redis On Vercel
 
-Provision your own Redis instance and set `REDIS_PORT`, `REDIS_URL`, `REDIS_PASSWORD`, and `REDIS_EMAIL_TO_ID_SECRET` (come up with your own secret string) on [Vercel Project Environment Variables Settings](https://vercel.com/docs/environment-variables) for the production environment.
+Provision your own Redis instance and set `REDIS_PORT`, `REDIS_URL`, `REDIS_PASSWORD`, and `REDIS_EMAIL_TO_ID_SECRET` (come up with your own secret string) on [Pattarai Project Environment Variables Settings](https://vercel.com/docs/environment-variables) for the production environment.
 
 ## More Details
 
@@ -315,4 +315,4 @@ export default async function getDiscordMessage(req: NextApiRequest, res: NextAp
 
 ### Demo
 
-The demo is available at https://demo.vercel.events. The data recorded or used on the demo may be removed by Vercel at any point.
+The demo is available at https://demo.vercel.events. The data recorded or used on the demo may be removed by Pattarai at any point.
